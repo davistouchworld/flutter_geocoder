@@ -1,6 +1,5 @@
-import 'package:meta/meta.dart';
 
-@immutable
+
 class Coordinates {
   /// The geographic coordinate that specifies the north–south position of a point on the Earth's surface.
   final double? latitude;
@@ -24,7 +23,6 @@ class Coordinates {
   String toString() => "{$latitude,$longitude}";
 }
 
-@immutable
 class Address {
   /// The geographic coordinates.
   final Coordinates coordinates;
